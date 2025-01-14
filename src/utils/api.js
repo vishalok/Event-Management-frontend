@@ -2,7 +2,8 @@ import axios from "axios";
 
 // Create an Axios instance
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // Replace with your backend's base URL
+  baseURL: "https://event-management-backend-p1m4.onrender.com/api", 
+
 });
 
 // Add an interceptor to include the token in every request
